@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>简历-潘新宇</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/iconfont.css">
+	<script type="text/javascript">
+		function preview(oper) {
+			if (oper < 10) {
+				bdhtml = window.document.body.innerHTML;//获取当前页的html代码
+				sprnstr = "<!--startprint" + oper + "-->";//设置打印开始区域
+				eprnstr = "<!--endprint" + oper + "-->";//设置打印结束区域
+				prnhtml = bdhtml.substring(bdhtml.indexOf(sprnstr) + 18); //从开始代码向后取html
+				prnhtml = prnhtml.substring(0, prnhtml.indexOf(eprnstr));//从结束代码向前取html
+				window.document.body.innerHTML = prnhtml;
+				window.print();
+				window.document.body.innerHTML = bdhtml;
+
+			} else {
+				window.print();
+			}
+
+		}
+	</script>
+</head>
+
+<body>
+	<a class="pdf" onclick="preview(1)"><i class="iconfont icon-pdf"></i></a>
+	<!--startprint1-->
+	<div class="content">
+		<header class="content-hd">
+			<div class="header-left">
+				<section class="info">
+					<div class="name">
+						<h1>潘新宇</h1>
+					</div>
+					<div class="en-name">
+						<h3>PANXINYU</h3>
+					</div>
+					<div class="job">
+						<h2>iOS工程师</h2>
+					</div>
+				</section>
+			</div>
+			<div class="header-right">
+				<section class="contact">
+					<ul>
+						<li><a><i class="iconfont icon-calendar"></i><span class="contact-link">1992.4</span></a></li>
+						<li><a href="tel:17620475797" target="_blank"><i class="iconfont icon-phone"></i><span class="contact-link">17620475797</span></a></li>
+						<li><a href="mailto:xinnyu007@gmail.com" target="_blank"><i class="iconfont icon-email"></i><span class="contact-link">xinnyu007@gmail.com</span></a></li>
+						<!--<li><a href="https://github.com/xinnyu" target="_blank"><i class="iconfont icon-blog"></i><span class="contact-link">https://github.com/xinnyu</span></a></li>-->
+					</ul>
+				</section>
+			</div>
+		</header>
+		<div class="content-bd">
+			<div class="content-left">
+				<section class="education">
+					<header class="section-hd">
+						<span class="section-title-l"></span>
+						<h2 class="section-title">教育背景</h2>
+						<span class="section-title-r"></span>
+					</header>
+					<div class="section-bd">
+						<div class="item">
+							<header class="item-hd">
+								<span class="item-time">2010 - 2014</span>
+								<h2 class="item-name">中南林业科技大学<i class="iconfont icon-dot"></i>机械设计及其自动化</h2>
+								<span class="item-more">本科&nbsp;&nbsp;&nbsp;</span>
+							</header>
+						</div>
+					</div>
+				</section>
+				<section class="practice">
+					<header class="section-hd">
+						<span class="section-title-l"></span>
+						<h2 class="section-title">技能关键字</h2>
+						<span class="section-title-r"></span>
+					</header>
+					<div class="section-bd">
+						<div class="item">
+							<em>iOS</em>&nbsp;&nbsp;<em>Swift</em>&nbsp;&nbsp;<em>Objective-C</em>&nbsp;&nbsp;
+							<em>RxSwift</em>&nbsp;&nbsp;<em>HTML</em>&nbsp;&nbsp;<em>CSS</em>&nbsp;&nbsp;<em>C++</em>&nbsp;&nbsp;<em>JavaScript</em>&nbsp;&nbsp;
+						</div>
+					</div>
+					<!--<div class="section-bd">
+						<div class="item">
+							<header class="item-hd">
+								<span class="item-time">2015.4&nbsp;&nbsp;-&nbsp;&nbsp;~</span>
+								<h2 class="item-name">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;武汉商贸学院<i class="iconfont icon-dot"></i>HTML5 3D数据展示</h2>
+							</header>
+							<div class="item-bd">
+								<p class="section-content">
+									全国软件设计大赛，大专组HTML5 3D数据展示，
+									使用D3，Three.js开发3D 图表，包含条形图，
+									折线图，饼状图，点图等八种图形。并且实现了
+									拖拽，放大缩小。选择等操作。
+								</p>
+							</div>
+						</div>
+					</div>-->
+				</section>
+				<section class="experience">
+					<header class="section-hd">
+						<span class="section-title-l"></span>
+						<h2 class="section-title">项目经验</h2>
+						<span class="section-title-r"></span>
+					</header>
+					<div class="section-bd">
+						<div class="item">
+							<header class="item-hd" />
+							<span class="item-time">2015.09</span>
+							<h2 class="item-name">Locfri</h2>
+							<span class="item-more"></span>
+							</header>
+							<div class="item-bd">
+								<p class="section-content">
+									深圳市獬豸网络科技有限公司的基于具体地点的 LBS 社交 APP, 项目使用
+									<em>LeanCloud</em>作为后台框架, 负责使用 Sketch 画原型图, 首先开发和维护 iOS版本, 开发语言主要是 <em>Swift</em>, 期间自学 Android 开发, 并完整开发了项目的 Android 版本; 后来自学一些前端知识, 准备使用 ReactNative 重构项目;
+								</p>
+							</div>
+						</div>
+						<div class="item">
+							<header class="item-hd" />
+							<span class="item-time">2015.3</span>
+							<h2 class="item-name">自学 iOS 开发</h2>
+							<span class="item-more"></span>
+							</header>
+							<div class="item-bd">
+								<p class="section-content">
+									学习了斯坦福的 iOS 开发全套公开课, 完成课后作业, 并使用融云 SDK 实现了一个简单的仿微信界面的即时通讯 APP, 使用 Charles 抓取豆瓣FM 的 API, 自己实现了一个功能齐全的豆瓣电台 iOS 客户端;
+								</p>
+							</div>
+						</div>
+
+					</div>
+				</section>
+				<section class="evaluation">
+					<header class="section-hd">
+						<span class="section-title-l"></span>
+						<h2 class="section-title">自我评价</h2>
+						<span class="section-title-r"></span>
+					</header>
+					<div class="section-bd">
+						<ul class="section-list">
+							<li>
+								<p class="section-content"><i class="iconfont icon-dot"></i>学习能力强, 喜欢挑战</p>
+							</li>
+							<li>
+								<p class="section-content"><i class="iconfont icon-dot"></i>相信 Google, StackOverFlow, GitHub 能解决大部分问题</p>
+							</li>
+							<li>
+								<p class="section-content"><i class="iconfont icon-dot"></i>轻微果粉, 喜欢编程这份工作, 持续学习</p>
+							</li>
+						</ul>
+					</div>
+				</section>
+			</div>
+			<div class="content-right">
+				<section class="skill">
+					<header class="section-hd">
+						<span class="section-title-l"></span>
+						<h2 class="section-title">专业技能</h2>
+						<span class="section-title-r"></span>
+					</header>
+					<div class="section-bd">
+						<ul class="section-list">
+							<li>
+								<p class="section-content"><i class="iconfont icon-dot"></i>有<em>C++</em>基础，熟悉常用数据结构和基本算法, 熟练掌握<em>Swift</em>、<em>Objective-C</em>语言，对<em>HTML</em>、<em>CSS</em>、<em>JavaScript</em> 等前端知识有一定了解，如<em>React.js</em>、<em>ReactNative</em></p>
+							</li>
+							<li>
+								<p class="section-content"><i class="iconfont icon-dot"></i>掌握<em>MVC</em>、<em>MVVM</em>设计模式，会使用<em>RxSwift</em>, 熟悉<em>OOP</em>编程，对Swift面向协议编程有一定了解; </p>
+							</li>
+							<li>
+								<p class="section-content"><i class="iconfont icon-dot"></i>熟练使用和自定义 Cocoa Touch 的各类 UI 组件，熟悉<em>Storyboard</em>、<em>Autolayout</em></p>
+							</li>
+							<li>
+								<p class="section-content"><i class="iconfont icon-dot"></i>熟悉<em>TCP/IP</em>、<em>HTTP</em>协议, 了解基础的<em>Socket</em>编程，熟悉<em>JSON</em>和<em>XML</em>解析, 熟练使用<em>Alamofire</em>、<em>AFNetWorking</em>等网络操作第三方库</p>
+							</li>
+							<li>
+								<p class="section-content"><i class="iconfont icon-dot"></i>熟悉<em>CoreData</em>、<em>Reaml</em>、<em>FMDB</em>等数据库相关操作</p>
+							</li>
+							<li>
+								<p class="section-content"><i class="iconfont icon-dot"></i>熟悉<em>GCD</em>、<em>NSOperation</em>等多线程技术，掌握<em>Runtime</em>机制</p>
+							</li>
+							<li>
+								<p class="section-content"><i class="iconfont icon-dot"></i>熟悉<em>Linux</em>系统，熟练运用常见<em>Linux</em>命令</p>
+							</li>
+							<li>
+								<p class="section-content"><i class="iconfont icon-dot"></i>熟练使用<em>CocoaPods</em>、<em>Carthage</em>进行依赖管理, <em>Git</em>进行版本控制和代码托管, <em>Markdown</em>进行文档编写，并以<em>macOS</em>、<em>Linux</em>作为日常开发环境，了解项目开发流程和<em>Instrumens</em>、<em>Charles</em>、<em>Sketch</em>等开发工具的使用</p>
+							</li>
+						</ul>
+					</div>
+				</section>
+				<section class="certification">
+					<header class="section-hd">
+						<span class="section-title-l"></span>
+						<h2 class="section-title">技能认证</h2>
+						<span class="section-title-r"></span>
+					</header>
+					<div class="section-bd">
+						<div class="item">
+							<header class="item-hd">
+								<span class="item-time"></span>
+								<h2 class="item-name">英语水平</h2>
+								<span class="item-more">CET4</span>
+							</header>
+						</div>
+						<div class="item">
+							<header class="item-hd">
+								<span class="item-time"></span>
+								<h2 class="item-name">计算机</h2>
+								<span class="item-more">国家计算机二级</span>
+							</header>
+						</div>
+					</div>
+				</section>
+				<section class="evaluation">
+					<header class="section-hd">
+						<span class="section-title-l"></span>
+						<h2 class="section-title">链接</h2>
+						<span class="section-title-r"></span>
+					</header>
+					<div class="header-right">
+				<div class="section-bd">
+						<div class="item" style="padding: 5px">
+							<header class="item-hd">
+								<span class="item-time"></span>
+								<h2 class="item-name">博客</h2>
+								<span class="item-more"><a href="https://xinnyu.github.io" target="_blank" style="color:white"><span>https://xinnyu.github.io</span></a></span>
+							</header>
+						</div>
+						<div class="item" style="padding: 5px">
+							<header class="item-hd ">
+								<span class="item-time"></span>
+								<h2 class="item-name">GitHub</h2>
+								<span class="item-more"><a href="https://github.com/xinnyu" target="_blank" style="color:white"><span>https://github.com/xinnyu</span></a></span>
+							</header>
+						</div>
+					</div>
+			</div>
+				</section>
+			</div>
+		</div>
+		<footer>
+			<a class="footer-link" href="#" target="_blank"><i class="iconfont icon-link"></i>PANXINYU RESUME</a>
+		</footer>
+	</div>
+	<!--endprint1-->
+	<!--
+    <footer>
+        <a class="footer-link"></a>
+    </footer>
+     -->
+</body>
+
+</html>
